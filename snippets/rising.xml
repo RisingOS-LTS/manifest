@@ -26,9 +26,9 @@
   <project path="frameworks/native" name="RisingOS-XTI/android_frameworks_native" groups="pdk" revision="thirteen" />
   
   <!-- External (AOSP) --> 
-  <project path="external/bouncycastle" name="RisingOS-XTI/android/external/bouncycastle" groups="pdk" revision="thirteen" />
+  <project path="external/bouncycastle" name="RisingOS-XTI/android_external_bouncycastle" groups="pdk" revision="thirteen" />
   <project path="external/google-fonts/cutive-mono" name="RisingOS-XTI/android_external_google-fonts_cutive-mono" revision="thirteen" />
-  <project path="external/jemalloc_new" name="RisingOS-XTI/android/external/jemalloc_new" groups="pdk" revision="thirteen" />
+  <project path="external/jemalloc_new" name="RisingOS-XTI/android_external_jemalloc_new" groups="pdk" revision="thirteen" />
   <project path="external/noto-fonts" name="RisingOS-XTI/android_external_noto-fonts"  revision="thirteen" />
   <project path="external/roboto-fonts" name="RisingOS-XTI/android_external_roboto-fonts"  revision="thirteen" />
   <project path="external/piex" name="RisingOS-XTI/android_external_piex" groups="pdk" revision="thirteen"/>
@@ -101,5 +101,6 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="RisingOS-XTI/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" revision="thirteen" />
   <project path="vendor/qcom/opensource/display" name="RisingOS-XTI/android_vendor_qcom_opensource_display" groups="qcom" revision="thirteen" />
   <project path="vendor/qcom/opensource/interfaces" name="RisingOS-XTI/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" revision="thirteen" />
+  <project path="vendor/qcom/opensource/vibrator" name="RisingOS-XTI/android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" revision="thirteen" />
 
 </manifest>
