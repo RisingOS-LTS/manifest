@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="build/soong" name="RisingOS-XTI/android_build_soong" groups="pdk,tradefed" revision="thirteen" >
+  <project path="build/soong" name="RisingOS-LTS/android_build_soong" groups="pdk,tradefed" revision="thirteen" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   
-  <project path="build/make" name="RisingOS-XTI/android_build" groups="pdk" revision="thirteen" >
+  <project path="build/make" name="RisingOS-LTS/android_build" groups="pdk" revision="thirteen" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -14,92 +14,92 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="art" name="RisingOS-XTI/android_art" groups="pdk" revision="thirteen"  />
-  <project path="bionic" name="RisingOS-XTI/android_bionic" groups="pdk" revision="thirteen"  />
-  <project path="bootable/recovery" name="RisingOS-XTI/android_bootable_recovery" groups="pdk" revision="thirteen"  />
+  <project path="art" name="RisingOS-LTS/android_art" groups="pdk" revision="thirteen"  />
+  <project path="bionic" name="RisingOS-LTS/android_bionic" groups="pdk" revision="thirteen"  />
+  <project path="bootable/recovery" name="RisingOS-LTS/android_bootable_recovery" groups="pdk" revision="thirteen"  />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="RisingOS-XTI/android_frameworks_av" groups="pdk" revision="thirteen" />
-  <project path="frameworks/base" name="RisingOS-XTI/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
-  <project path="frameworks/libs/net" name="RisingOS-XTI/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
-  <project path="frameworks/libs/systemui" name="RisingOS-XTI/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
-  <project path="frameworks/native" name="RisingOS-XTI/android_frameworks_native" groups="pdk" revision="thirteen" />
+  <project path="frameworks/av" name="RisingOS-LTS/android_frameworks_av" groups="pdk" revision="thirteen" />
+  <project path="frameworks/base" name="RisingOS-LTS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="frameworks/libs/net" name="RisingOS-LTS/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="frameworks/libs/systemui" name="RisingOS-LTS/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="frameworks/native" name="RisingOS-LTS/android_frameworks_native" groups="pdk" revision="thirteen" />
   
   <!-- External (AOSP) --> 
-  <project path="external/bouncycastle" name="RisingOS-XTI/android_external_bouncycastle" groups="pdk" revision="thirteen" />
-  <project path="external/google-fonts/cutive-mono" name="RisingOS-XTI/android_external_google-fonts_cutive-mono" revision="thirteen" />
-  <project path="external/jemalloc_new" name="RisingOS-XTI/android_external_jemalloc_new" groups="pdk" revision="thirteen" />
-  <project path="external/noto-fonts" name="RisingOS-XTI/android_external_noto-fonts"  revision="thirteen" />
-  <project path="external/roboto-fonts" name="RisingOS-XTI/android_external_roboto-fonts"  revision="thirteen" />
-  <project path="external/piex" name="RisingOS-XTI/android_external_piex" groups="pdk" revision="thirteen"/>
-  <project path="external/skia" name="RisingOS-XTI/android_external_skia" groups="pdk,qcom_msm8x26" revision="thirteen" />
-  <project path="external/tigervnc" name="RisingOS-XTI/android_external_tigervnc" groups="pdk" revision="thirteen" />
+  <project path="external/bouncycastle" name="RisingOS-LTS/android_external_bouncycastle" groups="pdk" revision="thirteen" />
+  <project path="external/google-fonts/cutive-mono" name="RisingOS-LTS/android_external_google-fonts_cutive-mono" revision="thirteen" />
+  <project path="external/jemalloc_new" name="RisingOS-LTS/android_external_jemalloc_new" groups="pdk" revision="thirteen" />
+  <project path="external/noto-fonts" name="RisingOS-LTS/android_external_noto-fonts"  revision="thirteen" />
+  <project path="external/roboto-fonts" name="RisingOS-LTS/android_external_roboto-fonts"  revision="thirteen" />
+  <project path="external/piex" name="RisingOS-LTS/android_external_piex" groups="pdk" revision="thirteen"/>
+  <project path="external/skia" name="RisingOS-LTS/android_external_skia" groups="pdk,qcom_msm8x26" revision="thirteen" />
+  <project path="external/tigervnc" name="RisingOS-LTS/android_external_tigervnc" groups="pdk" revision="thirteen" />
 
    <!-- Hardware (AOSP) -->
-  <project path="hardware/interfaces" name="RisingOS-XTI/android_hardware_interfaces" groups="pdk" revision="thirteen" />
-  <project path="hardware/lineage/interfaces" name="RisingOS-XTI/android_hardware_lineage_interfaces" revision="thirteen" />
+  <project path="hardware/interfaces" name="RisingOS-LTS/android_hardware_interfaces" groups="pdk" revision="thirteen" />
+  <project path="hardware/lineage/interfaces" name="RisingOS-LTS/android_hardware_lineage_interfaces" revision="thirteen" />
 
    <!-- Hardware (Google) -->
-  <project path="hardware/google/camera" name="RisingOS-XTI/android_hardware_google_camera" groups="pdk" revision="thirteen" />
-  <project path="hardware/google/pixel" name="RisingOS-XTI/android_hardware_google_pixel" groups="generic_fs,pixel" revision="thirteen"/>
-  <project path="hardware/google/pixel-sepolicy" name="RisingOS-XTI/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" revision="thirteen" />
+  <project path="hardware/google/camera" name="RisingOS-LTS/android_hardware_google_camera" groups="pdk" revision="thirteen" />
+  <project path="hardware/google/pixel" name="RisingOS-LTS/android_hardware_google_pixel" groups="generic_fs,pixel" revision="thirteen"/>
+  <project path="hardware/google/pixel-sepolicy" name="RisingOS-LTS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel" revision="thirteen" />
 
   <!-- Non-AOSP Packages -->
-  <project path="packages/apps/Backgrounds" name="RisingOS-XTI/android_packages_apps_Backgrounds" groups="pdk-fs" revision="thirteen" />
-  <project path="packages/apps/DesktopMode" name="RisingOS-XTI/android_packages_apps_DesktopMode" groups="pdk-fs" revision="thirteen" />
-  <project path="packages/apps/GameSpace" name="RisingOS-XTI/android_packages_apps_GameSpace" revision="thirteen" />
-  <project path="packages/apps/ThemePicker" name="RisingOS-XTI/android_packages_apps_ThemePicker" groups="pdk-fs" revision="thirteen"/>
-  <project path="packages/apps/Updater" name="RisingOS-XTI/android_packages_apps_Updater" revision="thirteen" />
-  <project path="packages/services/VncFlinger" name="RisingOS-XTI/android_packages_services_VncFlinger" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
-  <project path="packages/apps/WallpaperPicker2" name="RisingOS-XTI/android_packages_apps_WallpaperPicker2" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/Backgrounds" name="RisingOS-LTS/android_packages_apps_Backgrounds" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/DesktopMode" name="RisingOS-LTS/android_packages_apps_DesktopMode" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/GameSpace" name="RisingOS-LTS/android_packages_apps_GameSpace" revision="thirteen" />
+  <project path="packages/apps/ThemePicker" name="RisingOS-LTS/android_packages_apps_ThemePicker" groups="pdk-fs" revision="thirteen"/>
+  <project path="packages/apps/Updater" name="RisingOS-LTS/android_packages_apps_Updater" revision="thirteen" />
+  <project path="packages/services/VncFlinger" name="RisingOS-LTS/android_packages_services_VncFlinger" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="packages/apps/WallpaperPicker2" name="RisingOS-LTS/android_packages_apps_WallpaperPicker2" groups="pdk-fs" revision="thirteen" />
   
   <!-- AOSP Packages  -->
-  <project path="packages/apps/Contacts" name="RisingOS-XTI/android_packages_apps_Contacts" groups="pdk-fs" revision="thirteen" />
-  <project path="packages/apps/DeskClock" name="RisingOS-XTI/android_packages_apps_DeskClock" groups="pdk-fs" revision="thirteen" />
-  <project path="packages/apps/Dialer" name="RisingOS-XTI/android_packages_apps_Dialer" groups="pdk-fs" revision="thirteen" />
-  <project path="packages/apps/Launcher3" name="RisingOS-XTI/android_packages_apps_Launcher3" revision="thirteen" />
-  <project path="packages/apps/Messaging" name="RisingOS-XTI/android_packages_apps_Messaging" groups="pdk-fs" revision="thirteen" />
-  <project path="packages/apps/Nfc" name="RisingOS-XTI/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" revision="thirteen" />
-  <project path="packages/apps/ParallelSpace" name="RisingOS-XTI/android_packages_apps_ParallelSpace" revision="thirteen" />
-  <project path="packages/apps/Personalizations" name="RisingOS-XTI/android_packages_apps_Personalizations" groups="pdk-fs" revision="thirteen" />
-  <project path="packages/apps/Settings" name="RisingOS-XTI/android_packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/Contacts" name="RisingOS-LTS/android_packages_apps_Contacts" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/DeskClock" name="RisingOS-LTS/android_packages_apps_DeskClock" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/Dialer" name="RisingOS-LTS/android_packages_apps_Dialer" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/Launcher3" name="RisingOS-LTS/android_packages_apps_Launcher3" revision="thirteen" />
+  <project path="packages/apps/Messaging" name="RisingOS-LTS/android_packages_apps_Messaging" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/Nfc" name="RisingOS-LTS/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" revision="thirteen" />
+  <project path="packages/apps/ParallelSpace" name="RisingOS-LTS/android_packages_apps_ParallelSpace" revision="thirteen" />
+  <project path="packages/apps/Personalizations" name="RisingOS-LTS/android_packages_apps_Personalizations" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/Settings" name="RisingOS-LTS/android_packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
 
   <!-- Modules -->  
-  <project path="packages/modules/Bluetooth" name="RisingOS-XTI/android_packages_modules_Bluetooth" groups="pdk" revision="thirteen"/>
-  <project path="packages/modules/Permission" name="RisingOS-XTI/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="packages/modules/Bluetooth" name="RisingOS-LTS/android_packages_modules_Bluetooth" groups="pdk" revision="thirteen"/>
+  <project path="packages/modules/Permission" name="RisingOS-LTS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
 
   <!-- Providers -->  
-  <project path="packages/providers/MediaProvider" name="RisingOS-XTI/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="packages/providers/MediaProvider" name="RisingOS-LTS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
 
   <!-- Services -->  
-  <project path="packages/services/OmniJaws" name="RisingOS-XTI/packages_services_OmniJaws" revision="thirteen" />
-  <project path="packages/services/Telecomm" name="RisingOS-XTI/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" revision="thirteen"/>
-  <project path="packages/services/Telephony" name="RisingOS-XTI/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" revision="thirteen"/>
+  <project path="packages/services/OmniJaws" name="RisingOS-LTS/packages_services_OmniJaws" revision="thirteen" />
+  <project path="packages/services/Telecomm" name="RisingOS-LTS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" revision="thirteen"/>
+  <project path="packages/services/Telephony" name="RisingOS-LTS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" revision="thirteen"/>
 
   <!-- System -->
-  <project path="system/core" name="RisingOS-XTI/android_system_core" groups="pdk" revision="thirteen" />
-  <project path="system/libhwbinder" name="RisingOS-XTI/android_system_libhwbinder" groups="pdk" revision="thirteen" />
-  <project path="system/media" name="RisingOS-XTI/android_system_media" groups="pdk" revision="thirteen" />
-  <project path="system/memory/lmkd" name="RisingOS-XTI/android_system_memory_lmkd" groups="pdk" revision="thirteen" />
-  <project path="system/sepolicy" name="RisingOS-XTI/android_system_sepolicy" groups="pdk" revision="thirteen" />
+  <project path="system/core" name="RisingOS-LTS/android_system_core" groups="pdk" revision="thirteen" />
+  <project path="system/libhwbinder" name="RisingOS-LTS/android_system_libhwbinder" groups="pdk" revision="thirteen" />
+  <project path="system/media" name="RisingOS-LTS/android_system_media" groups="pdk" revision="thirteen" />
+  <project path="system/memory/lmkd" name="RisingOS-LTS/android_system_memory_lmkd" groups="pdk" revision="thirteen" />
+  <project path="system/sepolicy" name="RisingOS-LTS/android_system_sepolicy" groups="pdk" revision="thirteen" />
 
   <!-- Vendor -->
-  <project path="vendor/addons" name="RisingOS-XTI/android_vendor_addons" revision="thirteen" />
-  <project path="vendor/rising-prebuilts" name="RisingOS-XTI/android_vendor_rising-prebuilts" revision="thirteen" />
-  <project path="vendor/lineage" name="RisingOS-XTI/android_vendor_rising" revision="thirteen" />
-  <project path="vendor/pixel-framework" name="RisingOS-XTI/vendor_pixel-framework" revision="thirteen" />
-  <project path="vendor/support" name="RisingOS-XTI/android_vendor_support" revision="thirteen" />
+  <project path="vendor/addons" name="RisingOS-LTS/android_vendor_addons" revision="thirteen" />
+  <project path="vendor/rising-prebuilts" name="RisingOS-LTS/android_vendor_rising-prebuilts" revision="thirteen" />
+  <project path="vendor/lineage" name="RisingOS-LTS/android_vendor_rising" revision="thirteen" />
+  <project path="vendor/pixel-framework" name="RisingOS-LTS/vendor_pixel-framework" revision="thirteen" />
+  <project path="vendor/support" name="RisingOS-LTS/android_vendor_support" revision="thirteen" />
   <project path="vendor/risingOTA" name="RisingOSS-devices/android_vendor_RisingOTA" revision="thirteen" />
 
   <!-- Vendor QCOM-->
-  <project path="hardware/qcom-caf/sm8150/display" name="RisingOS-XTI/android_hardware_qcom_display_sm8150" groups="qcom" revision="thirteen" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="RisingOS-XTI/android_hardware_qcom_audio_sm8350" groups="qcom" revision="thirteen" />
-  <project path="hardware/qcom-caf/sm8350/display" name="RisingOS-XTI/android_hardware_qcom_display_sm8350" groups="qcom" revision="thirteen" />
-  <project path="hardware/qcom-caf/sm8350/media" name="RisingOS-XTI/android_hardware_qcom_media_sm8350" groups="qcom" revision="thirteen" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="RisingOS-XTI/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" revision="thirteen" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="RisingOS-XTI/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" revision="thirteen" />
-  <project path="vendor/qcom/opensource/display" name="RisingOS-XTI/android_vendor_qcom_opensource_display" groups="qcom" revision="thirteen" />
-  <project path="vendor/qcom/opensource/interfaces" name="RisingOS-XTI/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" revision="thirteen" />
-  <project path="vendor/qcom/opensource/vibrator" name="RisingOS-XTI/android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" revision="thirteen" />
+  <project path="hardware/qcom-caf/sm8150/display" name="RisingOS-LTS/android_hardware_qcom_display_sm8150" groups="qcom" revision="thirteen" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="RisingOS-LTS/android_hardware_qcom_audio_sm8350" groups="qcom" revision="thirteen" />
+  <project path="hardware/qcom-caf/sm8350/display" name="RisingOS-LTS/android_hardware_qcom_display_sm8350" groups="qcom" revision="thirteen" />
+  <project path="hardware/qcom-caf/sm8350/media" name="RisingOS-LTS/android_hardware_qcom_media_sm8350" groups="qcom" revision="thirteen" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="RisingOS-LTS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" revision="thirteen" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="RisingOS-LTS/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" revision="thirteen" />
+  <project path="vendor/qcom/opensource/display" name="RisingOS-LTS/android_vendor_qcom_opensource_display" groups="qcom" revision="thirteen" />
+  <project path="vendor/qcom/opensource/interfaces" name="RisingOS-LTS/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" revision="thirteen" />
+  <project path="vendor/qcom/opensource/vibrator" name="RisingOS-LTS/android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" revision="thirteen" />
 
 </manifest>
