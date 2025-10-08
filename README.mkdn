@@ -4,31 +4,18 @@
  
 Getting Started
 ---------------
-**Initialize local repository (thanks to apon77 for repo init script)**
 
+**Initialize the repo with this command:**
 ```bash
-# For webview related errors due to git lfs (credits to haggertk):
-sudo apt install git-lfs
-git lfs install
-rm -rf external/chromium-webview/prebuilt/*
-rm -rf .repo/projects/external/chromium-webview/prebuilt/*.git
-rm -rf .repo/project-objects/LineageOS/android_external_chromium-webview_prebuilt_*.git
-
-repo init --depth=1 --no-repo-verify -u https://github.com/RisingOS-XTI/manifest -b thirteen --git-lfs -g default,-mips,-darwin,-notdefault
-```
-**in case of repo syncing failures try this instead**
-
-```bash
-repo init -u https://github.com/RisingOS-XTI/manifest -b thirteen --git-lfs
+repo init -u https://github.com/RisingOS-LTS/manifest -b thirteen --git-lfs
 ```
 
 **Sync up with this command:**
 ```bash
 repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc --all)
-
 ```
-**Workaround for failing repositories**
 
+**Workaround for failing repositories**
 ```
 Failing repos:
 system/core
@@ -108,31 +95,21 @@ TARGET_CORE_GMS_EXTRAS := true/false - extra packages for core build type (velve
 
 Build
 ---------------
-**Set up environment**
+**Set up the environment:**
 ```bash
 . build/envsetup.sh
 ```
 
-**Build the code**
-```bash
-brunch "device_codename" userdebug/user
+**Prepare your device with:*
+```bash 
+lunch lineage_$device-$build_type
 ```
 
-**brunch uses all available cores to assign jobs hence making -jX no-op, to utilize -jX use:**
+**Start the build**
 ```bash
-lunch lineage_device-userdebug/user
-```
-```bash
-mka bacon -jX
+mka bacon -j8
 ```
 
-**Building fastboot update package**
-```bash
-lunch lineage_device-userdebug/user
-```
-```bash
-make updatepackage
-```
 
 
 Credits
