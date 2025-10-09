@@ -63,6 +63,9 @@
   <project path="packages/apps/ParallelSpace" name="RisingOS-LTS/android_packages_apps_ParallelSpace" revision="thirteen" />
   <project path="packages/apps/Personalizations" name="RisingOS-LTS/android_packages_apps_Personalizations" groups="pdk-fs" revision="thirteen" />
   <project path="packages/apps/Settings" name="RisingOS-LTS/android_packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
+  <project path="external/freetype" name="RisingOS-LTS/android_external_freetype" groups="pdk-fs" revision="thirteen" />
+
+
 
   <!-- Modules -->  
   <project path="packages/modules/Bluetooth" name="RisingOS-LTS/android_packages_modules_Bluetooth" groups="pdk" revision="thirteen"/>
