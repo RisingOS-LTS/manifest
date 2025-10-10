@@ -75,23 +75,6 @@ GMS Flags
 # GMS build flags
 WITH_GMS := true/false - ship with GMS packages, replaces misc AOSP packages with Google packages.
 
-# Customized GMS Flags 
-# WITH_GMS flag is required
-
-# Default GMS flags sets (Override the values on lineage_xxx.mk)
-WITH_GMS := true
-TARGET_CORE_GMS := true
-
-# Wether to use google (true) or AOSP (false) telephony package bundle. (defaults: false for gms core, true for pixel builds)
-TARGET_USE_GOOGLE_TELEPHONY := true/false
-
-# Compiler will only build GMS playstore services, its dependencies, and Gboard app.
-# package type will change from PIXEL/GMS -> CORE
-TARGET_CORE_GMS := true/false
-
-# extra flag under TARGET_CORE_GMS
-TARGET_CORE_GMS_EXTRAS := true/false - extra packages for core build type (velvet and photos)
-```
 
 Build
 ---------------
