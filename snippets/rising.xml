@@ -64,6 +64,7 @@
   <project path="packages/apps/Personalizations" name="RisingOS-LTS/android_packages_apps_Personalizations" groups="pdk-fs" revision="thirteen" />
   <project path="packages/apps/Settings" name="RisingOS-LTS/android_packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
   <project path="external/freetype" name="RisingOS-LTS/android_external_freetype" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/ManagedProvisioning" name="RisingOS-LTS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" revision="thirteen" />
 
 
 
