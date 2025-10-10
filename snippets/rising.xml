@@ -106,4 +106,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="RisingOS-LTS/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" revision="thirteen" />
   <project path="vendor/qcom/opensource/vibrator" name="RisingOS-LTS/android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" revision="thirteen" />
 
+  <!-- Vendor GAPPS-->
+  <project path="vendor/gapps" name="ayushsnom/android-vendor-gapps-spes" remote="gitlab" revision="thirteen" />
+
 </manifest>
