@@ -26,7 +26,7 @@
   <project path="frameworks/native" name="RisingOS-LTS/android_frameworks_native" groups="pdk" revision="thirteen" />
   <project path="frameworks/opt/telephony" name="RisingOS-LTS/android_frameworks_opt_telephony" groups="pdk" revision="thirteen" />
   <project path="packages/modules/CellBroadcastService" name="RisingOS-LTS/android_packages_modules_CellBroadcastService" groups="pdk" revision="thirteen" />
-  <project path="packages/modules/Wifi" name="LineageOS/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/modules/Wifi" name="RisingOS-LTS/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" />
   
   <!-- External (AOSP) --> 
   <project path="external/bouncycastle" name="RisingOS-LTS/android_external_bouncycastle" groups="pdk" revision="thirteen" />
@@ -96,7 +96,7 @@
   <project path="vendor/lineage" name="RisingOS-LTS/android_vendor_rising" revision="thirteen" />
   <project path="vendor/pixel-framework" name="RisingOS-LTS/vendor_pixel-framework" revision="thirteen" />
   <project path="vendor/support" name="RisingOS-LTS/android_vendor_support" revision="thirteen" />
-  <project path="vendor/risingOTA" name="RisingOSS-devices/android_vendor_RisingOTA" revision="thirteen" />
+  <project path="vendor/risingOTA" name="RisingOS-LTS/DevicesOTA" revision="thirteen" />
 
   <!-- Vendor QCOM-->
   <project path="hardware/qcom-caf/sm8150/display" name="RisingOS-LTS/android_hardware_qcom_display_sm8150" groups="qcom" revision="thirteen" />
