@@ -24,6 +24,8 @@
   <project path="frameworks/libs/net" name="RisingOS-LTS/android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
   <project path="frameworks/libs/systemui" name="RisingOS-LTS/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
   <project path="frameworks/native" name="RisingOS-LTS/android_frameworks_native" groups="pdk" revision="thirteen" />
+   <project path="frameworks/opt/telephony" name="RisingOS-LTS/android_frameworks_opt_telephony" groups="pdk" revision="thirteen" />
+   <project path="packages/modules/CellBroadcastService" name="RisingOS-LTS/android_packages_modules_CellBroadcastService" groups="pdk" revision="thirteen" />
   
   <!-- External (AOSP) --> 
   <project path="external/bouncycastle" name="RisingOS-LTS/android_external_bouncycastle" groups="pdk" revision="thirteen" />
