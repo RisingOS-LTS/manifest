@@ -74,6 +74,7 @@
   <!-- Modules -->  
   <project path="packages/modules/Bluetooth" name="RisingOS-LTS/android_packages_modules_Bluetooth" groups="pdk" revision="thirteen"/>
   <project path="packages/modules/Permission" name="RisingOS-LTS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+  <project path="packages/modules/IntentResolver" name="RisingOS-LTS/android_packages_modules_IntentResolver" groups="pdk" revision="thirteen"  />
 
   <!-- Providers -->  
   <project path="packages/providers/MediaProvider" name="RisingOS-LTS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
